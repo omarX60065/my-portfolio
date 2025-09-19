@@ -1,0 +1,41 @@
+#project {
+    margin: 0px auto;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(43, 105, 251, 0.12);
+    box-shadow: rgba(43, 105, 251, 0.06) 0px 0px 1rem 1rem;
+    position: relative;
+}
+
+
+#project-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#project-img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border-radius: 0.8rem;
+    border: 1px solid rgba(43, 105, 251, 0.12);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#project-img, .project-text {
+    grid-area: 1 / 1 / -1 / -1;
+    position: relative;
+}
+
+
+
+background-image: url(./images/domposer.avif), url(./images/domposer.webp)
