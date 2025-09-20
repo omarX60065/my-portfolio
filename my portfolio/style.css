@@ -850,8 +850,7 @@ text-transform: capitalize;
             #container{
                 display: grid;
                 place-items: center;
-                margin-left: 10%;
-                margin-right: 10%;   
+                   
             }
 
            
