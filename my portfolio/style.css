@@ -1101,8 +1101,7 @@ text-transform: capitalize;
                     #about_me{
                         height: 100%;
                         place-items: center;
-                        margin-right: 20%;
-                        margin-left: 20%;
+                        
                     }
 
                     #logo{
