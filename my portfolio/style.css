@@ -370,7 +370,7 @@ position: relative;
 #capsule{
     display: grid;
     place-items: center;
-    height: 5vh;
+    height: 7vh;
    
 }
 
@@ -1024,6 +1024,10 @@ text-transform: capitalize;
                     align-items: center;
                     justify-content: space-around;
                     gap: 45px;
+                }
+
+                #capsule{
+                height: 5vh;
                 }
 
                 #db_container{
