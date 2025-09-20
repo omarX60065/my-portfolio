@@ -712,25 +712,26 @@ font-size: 105%;
 }
 
 
-    .group_5.responsive_nav{
-         color: #FFFFFF;
-    display: grid;
-    justify-content: space-around;
-    width: auto;
-    gap: 0px;
-    font-size: 20px;
-    z-index: 2;
-    position: absolute;
-    right: 0%;
-    top: 100%;
-    -webkit-backdrop-filter: blur(10%);
-    backdrop-filter: blur(20px);
-     width: 100%;
-        min-height: 450px;
-        height: 80vh;
-        transition: .3s;
+    .group_5.responsive_nav {
+  color: #FFFFFF;
+  display: grid;
+  justify-content: space-around;
+  font-size: 20px;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 100%;
+  min-height: 450px;
+  height: 80vh;
+  transition: 0.3s;
 
-    }
+  /* Key part for blur */
+  background: rgba(16, 33, 12, 0.6); /* semi-transparent */
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  backdrop-filter: blur(10px);         /* Chrome/Edge */
+}
+
    
     #Hero{
         width: auto;
