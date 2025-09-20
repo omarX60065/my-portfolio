@@ -31,7 +31,7 @@ position: relative;
 overflow: hidden;
 padding-top: 100px;
 padding-bottom: 110px;
-font-family: inter;
+ ;
 font-style: italic;
 font-weight: 300px;
 z-index: 1;
@@ -39,7 +39,7 @@ z-index: 1;
 
  h1{
     margin: 0px;
-    font-family: inter;
+     ;
     font-weight: 400;
     font-style: italic;
     font-size: 78px;
@@ -182,7 +182,7 @@ transition: transform 3.5s;
 
 #content_1{
 margin-top: 20px;
-font-family: Inter;
+ ;
 font-weight: 600;
 font-size: 16px;
 line-height: 175%;
@@ -247,7 +247,7 @@ flex-direction: column;
 gap: 10px;
 position: relative;
 overflow: hidden;
-font-family: inter;
+ ;
 font-style: italic;
 font-weight: 300px;
 z-index: 1;
@@ -291,7 +291,7 @@ transition: all 1s ease;
 }
 
 #main_content{
-font-family: Inter;
+ ;
 font-weight: 600;
 font-size: 16px;
 line-height: 175%;
@@ -428,7 +428,7 @@ margin-right: 25px;
 #Vue_js{
 width: 75px;
 height: 29px;
-font-family: Inter;
+ ;
 font-weight: 600;
 font-size: 24px;
 line-height: 100%;
@@ -440,7 +440,7 @@ margin: 0px 50px 0px 50px;
 }
 
 #frames{
-    font-family: Inter;
+     ;
 font-weight: 100;
 font-size: 16px;
 line-height: 100%;
@@ -463,7 +463,7 @@ display: grid;
 #backend_frame{
     width: 325px;
     height: 44px;       
-font-family: Inter;
+ ;
 font-weight: 900;
 font-size: 36px;
 line-height: 100%;
@@ -704,7 +704,7 @@ font-size: 105%;
         size: 20px;
     }
     h1{
-        font-family: Inter;
+         ;
 font-weight: 400;
 font-style: italic;
 font-size: 32px;
@@ -720,7 +720,7 @@ vertical-align: middle;
     }
 
     #content_1{
-        font-family: Inter;
+         ;
 font-weight: 600;
 font-size: 12px;
 line-height: 175%;
@@ -853,7 +853,7 @@ text-transform: capitalize;
                #Vue_js{
                 width: unset;
                 height: unset;
-                font-family: Inter;
+                 ;
                 font-weight: 600;
                 font-size: 15px;
             
@@ -969,7 +969,7 @@ text-transform: capitalize;
                     }
 
                     #frames{
-                        font-family: Inter;
+                         ;
                     font-weight: 100;
                     font-size: 100%;
                     line-height: 100%;
