@@ -608,7 +608,7 @@ place-content: center;
 #footer_paragraph{
     height: 10vh;
     display: grid;
-    place-items: end;
+    place-items: center;
 }
 
 #email_p{
