@@ -692,7 +692,7 @@ font-size: 105%;
     background-size: contain; /* Scales image to fit within container */
     background-repeat: no-repeat; /* Prevents repeating */
     background-position: center; /* Centers the image */        
-    /*background-attachment: fixed;  Keeps image in place when scrolling */
+    background-attachment: fixed; /* Keeps image in place when scrolling */
     min-height: 100vh; /* Ensures body takes full viewport height */
     background-size: cover; 
 }
@@ -965,7 +965,7 @@ text-transform: capitalize;
                 }
                 
                 #Rectangle12{
-                    width: 100%;
+                    width: 80%;
                     height: 26%;
                     border-radius: 40px;
                     background: #10270B;
@@ -1011,11 +1011,12 @@ text-transform: capitalize;
                 }
 
                 #skill_container3{
-                    display: flex;
+                    display: grid;
                     width: 100%;
                     height: 300px;
                     margin-top: -75px;
                     /* margin-bottom: -67px*/
+                    place-items: center;
                    
                 }
 
@@ -1313,7 +1314,7 @@ h2{
 
 /* Button hover with smooth bounce */
 .btn_1 {
-  transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  transition: all 6s cubic-bezier(0.25, 0.5, 0.5, 1);
 }
 
 .btn_1:hover {
@@ -1322,7 +1323,7 @@ h2{
 
 /* Optional: smoother shadow effect */
 .group_1 {
-  transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  transition: all 1.8s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .group_1:hover {
