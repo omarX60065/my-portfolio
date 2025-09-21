@@ -692,7 +692,7 @@ font-size: 105%;
     background-size: contain; /* Scales image to fit within container */
     background-repeat: no-repeat; /* Prevents repeating */
     background-position: center; /* Centers the image */        
-    background-attachment: fixed; /* Keeps image in place when scrolling */
+   /* background-attachment: fixed;  Keeps image in place when scrolling */
     min-height: 100vh; /* Ensures body takes full viewport height */
     background-size: cover; 
 }
